@@ -3,8 +3,10 @@ import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 import { DemoStack } from '../lib/demo-stack';
 
+const ilCentral1 = { account: '006262944085', region: 'il-central-1' };
 const app = new cdk.App();
 new DemoStack(app, 'DemoStack', {
+  env: ilCentral1,
   description: 'The Hello, CDK! stack',
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,

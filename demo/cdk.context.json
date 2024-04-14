@@ -1,0 +1,34 @@
+{
+  "vpc-provider:account=006262944085:filter.isDefault=true:region=il-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0bdc63ac6da658e24",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "006262944085",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-075ffae68d9b0487a",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "il-central-1a",
+            "routeTableId": "rtb-06e83881b811997c5"
+          },
+          {
+            "subnetId": "subnet-03c15737267c37c42",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "il-central-1b",
+            "routeTableId": "rtb-06e83881b811997c5"
+          },
+          {
+            "subnetId": "subnet-07c17a3c4ace492df",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "il-central-1c",
+            "routeTableId": "rtb-06e83881b811997c5"
+          }
+        ]
+      }
+    ]
+  }
+}
